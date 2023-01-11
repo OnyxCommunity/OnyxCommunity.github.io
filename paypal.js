@@ -10,7 +10,7 @@ function initPayPalButton() {
 
     createOrder: function(data, actions) {
       return actions.order.create({
-        purchase_units: [{"description":"Vip prsq tes bg","amount":{"currency_code":"EUR","value":0.10}}]
+        purchase_units: [{"description":"Vip prsq tes bg","amount":{"currency_code":"EUR","value":0.01}}]
       });
     },
 
