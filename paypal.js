@@ -11,7 +11,7 @@ function initPayPalButton() {
 
     createOrder: function(data, actions) {
       return actions.order.create({
-        purchase_units: [{"description":"VIP","amount":{"currency_code":"EUR","value":1}}]
+        purchase_units: [{"description":"VIP","amount":{"currency_code":"EUR","value":0.01}}]
       });
     },
 
